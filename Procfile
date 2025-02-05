@@ -1,1 +1,1 @@
-web: gunicorn -w 4 projetoCB:app
+web: gunicorn app:app
